@@ -32,7 +32,7 @@ body {
 }
 
 ul li:hover {
-    background: #2793e8  ;
+    background: #3626c2;
     border-radius: 5px;
  
 }
@@ -52,7 +52,7 @@ ul li a {
     align-items: center;
 }
 .yang-logo {
-    color: #2793e8;
+    color: #3626c2;
 }
 
 /* Header Section  */
@@ -231,7 +231,7 @@ padding-top: 10px;
     list-style: none;
     display: flex;
     margin: 10px;
-    border-bottom: 1px #448dc563 solid;
+    border-bottom: 1px #3626c2 solid;
 }
 
 .team-ul  {
@@ -296,7 +296,7 @@ padding-top: 10px;
 }
 
 form {
-    background: #2794e8b2;
+    background: #3626c2;
     padding: 20px;
     margin: 20px;
     border-radius: 20px;
@@ -362,7 +362,8 @@ form h1 {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    background: #97c5eb;
+    background: #4138c5;
+    color: #fff;
     font-size: 16px;
 }
 
