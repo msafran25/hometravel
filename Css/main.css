@@ -1,0 +1,384 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Navbar */
+#navbar {
+    height: 50px;
+    background: #cc181ed2;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    position:sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar li {
+    padding: 12px 7px;
+    margin: 0px 5px;
+}
+
+ul li:hover {
+    background: #2793e8  ;
+    border-radius: 5px;
+ 
+}
+
+
+ul li a {
+    font-size: 1rem;
+    padding: 10px 0px;
+    color: #fff;
+    text-decoration: none;
+}
+.logo {
+    padding: 2px 10px;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.yang-logo {
+    color: #2793e8;
+}
+
+/* Header Section  */
+
+#main-header {
+    height: 650px;
+    background: url(../img/girls.jpg) no-repeat center center/cover;
+    z-index: -1;
+}
+
+.showcase {
+    color: #fff;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    height: 700px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.showcase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.showcase-text a{
+    padding: 10px;
+    background: #cc181ed2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    z-index: 1;
+}
+
+.showcase-text a:hover {
+    background: #fff;
+    color: #cc181ed2;
+    border: 1px solid #cc181ed2;
+} 
+
+.showcase-text {
+    height: 68%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;   
+}
+
+ .showcase p {
+    font-size: 1rem;
+    line-height: 1.8em;
+    margin: 10px;
+}
+
+/* Travel with us Section */
+
+#travel-us {
+    text-align: center;
+    height: 350px;
+  
+}
+
+.container h1 {
+margin-top: 10px;
+padding-top: 10px;
+}
+
+#travel-us .container {
+    padding-top: 50px;
+}
+
+#travel-us .container i {
+    margin-bottom: 10px;
+}
+
+.container p {
+    padding-bottom: 10px;
+    margin: 10px;
+    font-size: 0.8rem;
+}
+
+.with {
+    color: #cc181ed2;
+}
+
+ .showcase-travel {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     padding-top: 50px;
+     
+    }
+
+ .showcase-travel p {
+     font-size: 13px;
+     margin: 0px;
+     line-height: 1.3em;
+
+ }
+
+ .showcase-travel h2 {
+        font-size: 16px;
+ }
+
+ .fly i {
+    padding: 10px;
+    background: #cc181ed2;
+    border-radius: 30px;
+    color: #fff;
+ }
+
+ .stay i {
+    padding: 10px;
+    background: #cc181ed2;
+    border-radius: 30px;
+    color: #fff;
+ }
+
+ .covid-test i {
+    padding: 10px;
+    background: #cc181ed2;
+    border-radius: 30px;
+    color: #fff;
+ }
+
+/* Our Team Section */
+
+.team-img img {
+    width: 600px;
+    /* min-height: 100%; */
+}
+
+#our-team {
+    padding-top: 80px;
+}
+
+#our-team .team-container {
+    display: flex;
+    flex-direction: row;  
+    height: 400px;
+}
+
+.team-text {
+    width: 100%;
+    background: #333;
+    text-align: center;
+    color: #fff;
+}
+
+.team-text h1 {
+    margin: 10px;
+}
+
+.our {
+    color: #cc181ed2;
+}
+.team-text p {
+    font-size: 14px;
+    text-align: left;
+    margin: 10px;
+}
+
+.team-text .executive {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin: 20px;
+}
+.team-ul li {
+    list-style: none;
+    display: flex;
+    margin: 10px;
+    border-bottom: 1px #448dc563 solid;
+}
+
+.team-ul  {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+/* Client Section */
+
+.client-img img {
+    width: 140px;
+}
+
+.client-img2 img {
+    width: 140px;
+    height: 110px;
+
+}
+
+.client-img3 img {
+    width: 140px;
+}
+
+.client-img4 img {
+    width: 140px;
+    padding-top: 35px;
+}
+
+.client-img5 img {
+    width: 140px;
+    padding-top: 50px;
+}
+
+.client-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.client h1 {
+    text-align: center;
+    padding: 10px;
+    margin: 25px 10px;
+}
+
+.client {
+    padding-top: 20px;
+}
+
+/* Contact Section  */
+
+.form {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+form {
+    background: #2794e8b2;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    
+}
+
+form h1 {
+    margin: 10px;
+}
+.form-wrapp label {
+   margin: 10px;
+}
+
+.form-wrapp input {
+    padding: 10px;
+    width: 500px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    
+      
+}
+
+#contact {
+    background: #333;
+    padding-top: 30px;
+}
+
+.form-group {
+    margin: 20px;
+    text-align: left;
+}
+
+.form-wrapp .email {
+    margin-right: 45px;
+}
+
+.form-wrapp .phone {
+    margin-right: 40px;
+}
+
+#message {
+    margin-left: 35px;
+    margin-bottom: 20px;
+}
+
+.message {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.message label {
+
+}
+.btn button {
+    text-align: center;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin-left: 28%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #97c5eb;
+    font-size: 16px;
+}
+
+
+ .btn button:hover {
+    border: 1px solid #cc181ed2;
+    background: #fff;
+    color: #cc181ed2;
+    border-radius: 5px;
+}
+
+#footer {
+    padding: 10px;
+    background: #a5181dd2;
+}
+
+#footer p {
+    text-align: center;
+}

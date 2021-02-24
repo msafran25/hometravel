@@ -1,0 +1,253 @@
+
+@media(max-width: 500px) {
+
+
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        width: 100%;
+    }
+    #navbar li {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    ul li a {
+        font-size: 12px;
+    }
+    
+    .logo {
+       margin-top: 15px;
+    }
+    
+    .logo h1 {
+        font-size: 14px;
+    }
+    #main-header {
+        height: 500px;
+    
+    }
+
+    .showcase p {
+   
+    }
+    
+    .showcase {
+        height: 595px;
+    }
+
+    .showcase h1 {
+        font-size: 1.5rem;
+    }
+
+    .showcase-text  {
+       height: 60%;
+    }
+
+    .showcase-travel{
+        flex-direction: column;
+    }
+
+    .fly, .stay, .covid-test {
+        margin-bottom: 20px;
+    }
+
+    .team-img img {
+        max-width: 100%;
+
+    }
+
+    #our-team .team-container {
+        flex-direction:column;
+      margin-top: 100%;
+  
+        
+    }
+
+    .container {
+        margin: auto 5px;
+        
+    }
+    /* .team-text {
+        width: 100%;
+    } */
+
+    .client {
+        margin-top: 150px;
+        padding-top: 100px;
+    }
+
+    .client-container {
+        margin-bottom: 10px;
+    }
+    
+    .client img {
+        width: 70px;
+        padding: 10px;
+    }
+
+    .client-img5 img {
+        padding-top: 20px;
+    }
+
+    .client h1 {
+        font-size: 20px;
+        padding-top: 150px;
+       
+    }
+
+    .client-img2 {
+        display: none;
+    }
+
+
+    form {
+        width: 350px;
+    }
+
+    .form .form-wrapp {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        align-content: flex-start;
+        align-items: left;
+    }
+
+    .form-wrapp label {
+        padding-left: 10px;
+    }
+
+    .form-wrapp input {
+        width: 300px;
+    }
+
+    #name, #email, #number {
+        width: 270px;
+    }
+    .message {
+        display: none;
+    }
+
+    .form form button {
+        margin-left: 70px;
+    }
+   
+}
+
+
+@media(max-width: 768px) {
+
+    .team-img img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .team-ul {
+       font-size: 12px;
+    }
+
+    .btn button {
+       margin-top: 10px;
+        margin-left: 120px;
+    }
+}
+
+@media(max-width: 280px) {
+    .team-img img {
+        padding-top: 50px;
+    }
+
+    .client h1 {
+        margin-top: 50px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    #name, #email, #number {
+        width: 210px;
+    }
+}
+
+@media(min-width: 540px) {
+    .form {
+        flex-direction: row;
+    }
+
+    .message {
+        display: none
+    }
+
+    form {
+        width: 92%;
+    }
+
+    .form input {
+        width: 400px;
+    }
+
+    .btn {
+        margin: auto;
+    }
+
+    .client-img2 {
+        display: none;
+    }
+
+    /* .client {
+        margin-top: 150px;
+        padding-top: 100px;
+    } */
+
+    .client-container {
+        margin-bottom: 10px;
+    }
+    
+    .client img {
+        width: 100px;
+        padding: 10px;
+    }
+
+    .client-img5 img {
+        padding-top: 20px;
+    }
+
+    .client h1 {
+        font-size: 22px;
+    }
+
+
+    .team-img img {
+        width: 300px;
+        
+    }
+
+    #our-team {
+        margin-top: 150px;
+        padding-top: 170px;
+    }
+
+    .team-ul li {
+        font-size: 10px;
+        margin: 8px;
+        padding: 0px;
+    }
+
+    .showcase-travel {
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 320px) {
+
+    form {
+        width: 300px;
+    }
+
+    #name, #email, #number {
+        width: 230px;
+    }
+}

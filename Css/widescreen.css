@@ -1,0 +1,9 @@
+@media(min-width: 1024px) {
+    .team-ul {
+        font-size: 14px;
+    }
+
+    #message {
+        padding-right: 10px;
+    }
+}
